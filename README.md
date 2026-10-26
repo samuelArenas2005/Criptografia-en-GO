@@ -61,7 +61,6 @@ El ciclo de vida de la ejecución está compuesto por 10 pasos secuenciales:
 Este repositorio sigue las directrices estándar de organización de proyectos en Go (*Standard Go Project Layout*), estructurado bajo el patrón de arquitectura limpia / por capas:
 
 ```text
-taller-cripto-go/
 ├── cmd/
 │   └── cli/
 │       └── main.go                 # Punto de entrada de la aplicación CLI
