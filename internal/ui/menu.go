@@ -117,7 +117,7 @@ func RunMenu() error {
 	// Consolidación de métricas de eventos
 	regCount, modCount := 0, 0
 	for _, ev := range eventsWithHash {
-		if ev.Tipo == "REGISTRO_NOTA" {
+		if ev.Tipo == domain.TipoRegistroNota {
 			regCount++
 		} else {
 			modCount++

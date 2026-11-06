@@ -1,1 +1,66 @@
-[]
+[
+  {
+    "id_evento": "evt-ef4519b9-d55e-422a-9cd9-dc00f00d6142",
+    "tipo": "REGISTRO_NOTA",
+    "timestamp": "2026-11-06T23:17:26Z",
+    "payload": {
+      "docente_id": "usr-prof-2518",
+      "estudiante_id": "usr-est-6609",
+      "curso_id": "cur-fis-101",
+      "nota": 4.1
+    },
+    "payload_hash": "d843d329633bd473138d74b3e55991dc80c7c0e5df8eabc0f15467fecfffc115"
+  },
+  {
+    "id_evento": "evt-e5d46097-f5e3-4c43-ac2b-92fea0f4076f",
+    "tipo": "MODIFICACION_NOTA",
+    "timestamp": "2026-11-06T23:17:56Z",
+    "payload": {
+      "docente_id": "usr-prof-2518",
+      "estudiante_id": "usr-est-6609",
+      "curso_id": "cur-fis-101",
+      "nota_anterior": 4.1,
+      "nota_nueva": 3.4,
+      "motivo": "Correccion de evaluacion parcial"
+    },
+    "payload_hash": "bd8111158236eb52e411fb1ce5da2cf61b5b4174afa001f1f4920202c45fd6eb"
+  },
+  {
+    "id_evento": "evt-ca8fc753-f115-4463-a5fe-4f55adb8fba3",
+    "tipo": "REGISTRO_NOTA",
+    "timestamp": "2026-11-06T23:18:26Z",
+    "payload": {
+      "docente_id": "usr-prof-7721",
+      "estudiante_id": "usr-est-3233",
+      "curso_id": "cur-bd-102"
+    },
+    "payload_hash": "8d4ce26b8588f27e914f350b7b3afb0f00215f56ad053058074a1d90abf96ed8"
+  },
+  {
+    "id_evento": "evt-847c3180-7dd7-4e18-b818-dd74311ad845",
+    "tipo": "MODIFICACION_NOTA",
+    "timestamp": "2026-11-06T23:18:56Z",
+    "payload": {
+      "docente_id": "usr-prof-2518",
+      "estudiante_id": "usr-est-6609",
+      "curso_id": "cur-fis-101",
+      "nota_anterior": 3.4,
+      "nota_nueva": 1,
+      "motivo": "Revision y recalificacion de taller"
+    },
+    "payload_hash": "ddb00d5497567c0f0856e5c6172306510320685d449deff766849ee99c2544b2"
+  },
+  {
+    "id_evento": "evt-e2a10279-a320-427c-b130-c14cc1257bf9",
+    "tipo": "MODIFICACION_NOTA",
+    "timestamp": "2026-11-06T23:19:26Z",
+    "payload": {
+      "docente_id": "usr-prof-7721",
+      "estudiante_id": "usr-est-3233",
+      "curso_id": "cur-bd-102",
+      "nota_nueva": 1.3,
+      "motivo": "Correccion de evaluacion parcial"
+    },
+    "payload_hash": "da472a5834ffc550ba9a905a9ffbb1f9ddf98c0cb0c88b722e29863ef5c94097"
+  }
+]

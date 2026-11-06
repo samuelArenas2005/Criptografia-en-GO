@@ -103,9 +103,20 @@ func (p *Presenter) interactiveExplorer(r *ExecutionResult) error {
 				fmt.Printf("[%d] ID: %s | Tipo: %s | Fecha: %s\n", i+1, ev.IDEvento, ev.Tipo, ev.Timestamp)
 				fmt.Printf("    Profesor: %s | Estudiante: %s | Curso: %s\n", ev.Payload.DocenteID, ev.Payload.EstudianteID, ev.Payload.CursoID)
 				if ev.Tipo == "REGISTRO_NOTA" {
-					fmt.Printf("    Nota asignada: %.1f\n", ev.Payload.Nota)
+					notaVal := 0.0
+					if ev.Payload.Nota != nil {
+						notaVal = *ev.Payload.Nota
+					}
+					fmt.Printf("    Nota asignada: %.1f\n", notaVal)
 				} else {
-					fmt.Printf("    Nota anterior: %.1f -> Nueva: %.1f | Motivo: %s\n", ev.Payload.NotaAnterior, ev.Payload.NotaNueva, ev.Payload.Motivo)
+					notaAnt, notaNue := 0.0, 0.0
+					if ev.Payload.NotaAnterior != nil {
+						notaAnt = *ev.Payload.NotaAnterior
+					}
+					if ev.Payload.NotaNueva != nil {
+						notaNue = *ev.Payload.NotaNueva
+					}
+					fmt.Printf("    Nota anterior: %.1f -> Nueva: %.1f | Motivo: %s\n", notaAnt, notaNue, ev.Payload.Motivo)
 				}
 				fmt.Printf("    Hash SHA-256: %s\n\n", ev.PayloadHash)
 			}
