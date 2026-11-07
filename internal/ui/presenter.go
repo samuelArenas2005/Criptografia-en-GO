@@ -122,12 +122,12 @@ func (p *Presenter) interactiveExplorer(r *ExecutionResult) error {
 			}
 		case 1:
 			fmt.Println("\n--- Artefactos Creados en /artifacts ---")
-			fmt.Printf("1. %-25s (Log consolidado texto plano)\n", r.OriginalLogPath)
-			fmt.Printf("2. %-25s (Hash SHA-256 original)\n", r.OriginalHash)
-			fmt.Printf("3. %-25s (Log binario cifrado AES-256-GCM)\n", r.EncryptedLogPath)
-			fmt.Printf("4. %-25s (Insumos criptográficos Clave y Nonce)\n", r.KeystorePath)
-			fmt.Printf("5. %-25s (Hash SHA-256 del binario cifrado)\n", r.EncryptedHash)
-			fmt.Printf("6. %-25s (Log recuperado tras descifrado)\n\n", r.DecryptedLogPath)
+			fmt.Printf("1. %-32s (Log consolidado texto plano)\n", r.OriginalLogPath)
+			fmt.Printf("2. %-32s (Hash SHA-256 original)\n", r.OriginalHashPath)
+			fmt.Printf("3. %-32s (Log binario cifrado AES-256-GCM)\n", r.EncryptedLogPath)
+			fmt.Printf("4. %-32s (Insumos criptográficos Clave y Nonce)\n", r.KeystorePath)
+			fmt.Printf("5. %-32s (Hash SHA-256 del binario cifrado)\n", r.EncryptedHashPath)
+			fmt.Printf("6. %-32s (Log recuperado tras descifrado)\n\n", r.DecryptedLogPath)
 		case 2:
 			fmt.Println("Ejecución finalizada con éxito.")
 			return nil

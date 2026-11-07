@@ -1,128 +1,40 @@
 [
   {
-    "id_evento": "evt-2279fce4-c45f-47d8-8638-9281c2867551",
+    "id_evento": "evt-8e84326b-2ca3-49bd-a8c6-35f693307f68",
     "tipo": "REGISTRO_NOTA",
-    "timestamp": "2026-11-07T00:15:08Z",
+    "timestamp": "2026-11-07T01:27:39Z",
     "payload": {
-      "docente_id": "usr-prof-9601",
-      "estudiante_id": "usr-est-4560",
-      "curso_id": "cur-prog-201",
+      "docente_id": "usr-prof-7286",
+      "estudiante_id": "usr-est-7209",
+      "curso_id": "cur-redes-202",
       "nota": 4
     },
-    "payload_hash": "d39f3a780ddde10681e2a7f55936d24eedfaf83a7b0fb72447301049481476f3"
+    "payload_hash": "6a382be21583375fc244e34cc6c9ce1f4f8824080cfdf44789508a4d5eacec52"
   },
   {
-    "id_evento": "evt-288bd361-c10f-4cb0-b887-47506c52e4d8",
+    "id_evento": "evt-38548dc9-475b-4b0c-a810-b8a8c9e794da",
+    "tipo": "REGISTRO_NOTA",
+    "timestamp": "2026-11-07T01:28:09Z",
+    "payload": {
+      "docente_id": "usr-prof-6647",
+      "estudiante_id": "usr-est-2508",
+      "curso_id": "cur-bd-102",
+      "nota": 2.5
+    },
+    "payload_hash": "025b33215745b30e72c5587db3deffde22f3bedc6587537c356912a5a170f650"
+  },
+  {
+    "id_evento": "evt-fcde7d1f-3e93-4d92-92e9-24a3f05affe7",
     "tipo": "MODIFICACION_NOTA",
-    "timestamp": "2026-11-07T00:15:38Z",
+    "timestamp": "2026-11-07T01:28:39Z",
     "payload": {
-      "docente_id": "usr-prof-9601",
-      "estudiante_id": "usr-est-4560",
-      "curso_id": "cur-prog-201",
-      "nota_anterior": 4,
-      "nota_nueva": 4.7,
-      "motivo": "Correccion de evaluacion parcial"
+      "docente_id": "usr-prof-6647",
+      "estudiante_id": "usr-est-2508",
+      "curso_id": "cur-bd-102",
+      "nota_anterior": 2.5,
+      "nota_nueva": 0.4,
+      "motivo": "Revision y recalificacion de taller"
     },
-    "payload_hash": "6eb20c4f34448443063096009ddecf1789ba009a1ef28f1adf35dd0162de0b25"
-  },
-  {
-    "id_evento": "evt-e018281b-492d-41d0-9ac1-ff53b5cf6787",
-    "tipo": "REGISTRO_NOTA",
-    "timestamp": "2026-11-07T00:16:08Z",
-    "payload": {
-      "docente_id": "usr-prof-2726",
-      "estudiante_id": "usr-est-5635",
-      "curso_id": "cur-fis-101",
-      "nota": 4.2
-    },
-    "payload_hash": "88f39329690cbb71e9a6edf60317b19bf1eb4c2b5cd28346c7cc4d9ac1f9d41a"
-  },
-  {
-    "id_evento": "evt-a96b7b03-1ab1-4f06-b193-1d83ddc0cbcf",
-    "tipo": "REGISTRO_NOTA",
-    "timestamp": "2026-11-07T00:16:38Z",
-    "payload": {
-      "docente_id": "usr-prof-7612",
-      "estudiante_id": "usr-est-5434",
-      "curso_id": "cur-fis-101",
-      "nota": 2.3
-    },
-    "payload_hash": "370b8527f69a2b7d727cd73a0c9dc346af4e19000d23e3c52e57af5f266a270b"
-  },
-  {
-    "id_evento": "evt-515ec2f3-8482-46bb-9544-37d9114c293e",
-    "tipo": "REGISTRO_NOTA",
-    "timestamp": "2026-11-07T00:17:08Z",
-    "payload": {
-      "docente_id": "usr-prof-1013",
-      "estudiante_id": "usr-est-1149",
-      "curso_id": "cur-redes-202",
-      "nota": 1.3
-    },
-    "payload_hash": "25dab40441084ef02f1adcdd901448b8b4433202d08026b7867158772d2e4257"
-  },
-  {
-    "id_evento": "evt-fff9fdb4-47d6-45cc-9337-447c00b00d68",
-    "tipo": "MODIFICACION_NOTA",
-    "timestamp": "2026-11-07T00:17:38Z",
-    "payload": {
-      "docente_id": "usr-prof-7612",
-      "estudiante_id": "usr-est-5434",
-      "curso_id": "cur-fis-101",
-      "nota_anterior": 2.3,
-      "nota_nueva": 4.2,
-      "motivo": "Correccion de evaluacion parcial"
-    },
-    "payload_hash": "761271c4e95b2315517d1de4bfe8869c40ce34ee5908e5bacb2c1bbbc236cafc"
-  },
-  {
-    "id_evento": "evt-bf64a92b-f9d0-48f6-a9a0-8ece33247f4d",
-    "tipo": "REGISTRO_NOTA",
-    "timestamp": "2026-11-07T00:18:08Z",
-    "payload": {
-      "docente_id": "usr-prof-6284",
-      "estudiante_id": "usr-est-7730",
-      "curso_id": "cur-redes-202",
-      "nota": 4.5
-    },
-    "payload_hash": "f65bb586b38d9a8ee0eade8b06b0e5fb5708f3d3ea1c12ea135f352481967079"
-  },
-  {
-    "id_evento": "evt-1270d2ab-b736-452c-bf63-b0ec421e653f",
-    "tipo": "REGISTRO_NOTA",
-    "timestamp": "2026-11-07T00:18:38Z",
-    "payload": {
-      "docente_id": "usr-prof-3610",
-      "estudiante_id": "usr-est-1284",
-      "curso_id": "cur-cripto-301",
-      "nota": 1.1
-    },
-    "payload_hash": "bb60fffb7d3d1cf42babc47fe4a7d47f3b28478b0a782be4da571e13b96326f0"
-  },
-  {
-    "id_evento": "evt-b44743db-e4b1-45ec-a687-3d9a8939af1a",
-    "tipo": "REGISTRO_NOTA",
-    "timestamp": "2026-11-07T00:19:08Z",
-    "payload": {
-      "docente_id": "usr-prof-9219",
-      "estudiante_id": "usr-est-4018",
-      "curso_id": "cur-redes-202",
-      "nota": 4.3
-    },
-    "payload_hash": "72826a3431723f018310f3a826f97d9982a601d2eb5e5f02f1ab1a905f58f024"
-  },
-  {
-    "id_evento": "evt-0a867f95-77c1-4986-a091-9d33789b7a70",
-    "tipo": "MODIFICACION_NOTA",
-    "timestamp": "2026-11-07T00:19:38Z",
-    "payload": {
-      "docente_id": "usr-prof-9601",
-      "estudiante_id": "usr-est-4560",
-      "curso_id": "cur-prog-201",
-      "nota_anterior": 4.7,
-      "nota_nueva": 3.6,
-      "motivo": "Correccion de evaluacion parcial"
-    },
-    "payload_hash": "4066f3ffd7883c1fa29eea5bc1dfecb58665c37af775b40852602a15a7c83dcb"
+    "payload_hash": "4c226d1cbda7860df605d5a06f961628f1aebe17640d1f436729c81e34ea006f"
   }
 ]
