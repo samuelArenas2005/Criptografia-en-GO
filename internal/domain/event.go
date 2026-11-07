@@ -27,3 +27,4 @@ type LogEvent struct {
 	Timestamp   string  `json:"timestamp"`
 	Payload     Payload `json:"payload"`
 	PayloadHash string  `json:"payload_hash"`
+}
